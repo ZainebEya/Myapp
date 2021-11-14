@@ -3,7 +3,7 @@
 - name: Log into DockerHub
   docker_login:
     username: zainebeya
-    password: Baba3zizi@
+    password: 93022741@
     email: zainebeya.banneni@esprit.tn
 
 - name: Tag and push to docker hub
