@@ -8,7 +8,7 @@
 
 - name: Tag and push to docker hub
   docker_image:
-    name: myapp:latest
+    name: zainebeya/myapp:latest
     repository: zainebeya/myapp
-    tag: end
+    tag: latest
     push: yes
