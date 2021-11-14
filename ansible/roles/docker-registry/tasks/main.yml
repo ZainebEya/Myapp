@@ -4,10 +4,7 @@
   docker_login:
     username: zainebeya
     password: Baba3zizi@
+    email: zainebeya.banneni@esprit.tn
 
-- name: Tag and push to docker hub
-  docker_image:
-    name: myapp:latest
-    repository: zainebeya/myapp
-    tag: end
-    push: yes
+- name: Push to docker hub
+  ansible.builtin.shell: docker push zainebeya/myapp:tagname
