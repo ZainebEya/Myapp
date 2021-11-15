@@ -1,14 +1,3 @@
 ---
 # tasks file for docker-registry
-- name: Log into DockerHub
-  docker_login:
-    username: zainebeya
-    password: 93022741@
-    email: zainebeya.banneni@esprit.tn
 
-- name: Tag and push to docker hub
-  docker_image:
-    name: zainebeya/myapp:latest
-    repository: zainebeya/myapp
-    tag: latest
-    push: yes
